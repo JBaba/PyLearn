@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^webapp/', include('webapp.urls')),
+    url(r'^$', include('personal.urls')),
 ]
 """ Here include our webapp urls and include has to imported """
