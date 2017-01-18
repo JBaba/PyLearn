@@ -1,0 +1,31 @@
+Read Me For running this
+------------------------
+
+# command to create app inside django project:
+$ python manage.py startapp <app-name>
+Ex:
+$ python manage.py startapp blog
+
+# run server command
+$ python manage.py runserver
+
+
+Things to be done after you create app :
+----------------------------------------
+ 	1. Add app inside settings.py on projects in 'INSTALLED_APPS' variable
+ 	2. Create a Url for this under main projects urls.py file. (This is optional.)
+ 	3. Create a Url under apps urls.py file
+ 	4. Create a view
+
+
+Inculdes files inside one another :
+-----------------------------------
+
+	{% block content %}
+	{% endblock %}
+
+This tag represents place holder and JINJER will help to replace this stuff with your our code. Think JINJER as JSP Expressions with $ sign.
+
+	{% extends "personal/header.html" %}
+
+By using this we can include htmls inside one another.

@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^webapp/', include('webapp.urls')),
     url(r'^', include('personal.urls')),
+    url(r'^', include('blog.urls')),
 ]
 """ Here include our webapp urls and include has to imported """
