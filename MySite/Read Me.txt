@@ -35,3 +35,11 @@ About Migrations :
 
 	1. python manage.py migrate
 	2. python manage.py makemigrations
+	            or
+	2. python manage.py makemigrations <app-name>
+
+	// This will show you what kind of sql will be fired
+	3. python manage.py sqlmigrate blog 0001
+
+	// run again to do all changes
+	4. python manage.py migrate
