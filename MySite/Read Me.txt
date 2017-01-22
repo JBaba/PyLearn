@@ -29,3 +29,9 @@ This tag represents place holder and JINJER will help to replace this stuff with
 	{% extends "personal/header.html" %}
 
 By using this we can include htmls inside one another.
+
+About Migrations :
+-------------------
+
+	1. python manage.py migrate
+	2. python manage.py makemigrations
