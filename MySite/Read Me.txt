@@ -43,3 +43,9 @@ About Migrations :
 
 	// run again to do all changes
 	4. python manage.py migrate
+
+
+Admin Stuff :
+---------------
+
+We have to create a super user
